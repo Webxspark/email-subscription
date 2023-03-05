@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #fff;
+  animation: changeBg 5s infinite alternate linear;
+  transition: background-color 1s ease-in-out;
+}
+/* 
+@keyframes changeBg {
+  0% {
+    background-color: #aa3dfa;
+  }
+  25% {
+    background-color: #aa3dfa;
+  }
+  50% {
+    background-color: #aa3dfa;
+  }
+  75% {
+    background-color: #c901ff;
+  }
+  100% {
+    background-color: #9d1dfa;
+  }
+} */
